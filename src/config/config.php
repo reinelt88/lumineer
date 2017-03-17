@@ -22,8 +22,8 @@ return [
     |
     */
     'users' => [
-        'model' => 'App\User',
-        'table' => 'users',
+        'model' => 'App\Auth\Usuario',
+        'table' => 'usuarios',
     ],
     
     /*
@@ -35,7 +35,7 @@ return [
     | the role if it is in a different namespace.
     |
     */
-    'role' => 'App\Role',
+    'role' => 'App\Models\Role',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     | This is the roles table used by Lumineer to save roles to the database.
     |
     */
-    'roles_table' => 'roles',
+    'roles_table' => 'lumineer_roles',
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     | Update the permission if it is in a different namespace.
     |
     */
-    'permission' => 'App\Permission',
+    'permission' => 'App\Models\Permiso',
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return [
     | database.
     |
     */
-    'permissions_table' => 'permissions',
+    'permissions_table' => 'permiso',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     | between permissions and roles to the database.
     |
     */
-    'permission_role_table' => 'permission_role',
+    'permission_role_table' => 'permiso_role',
 
     /*
     |--------------------------------------------------------------------------
@@ -89,14 +89,14 @@ return [
     | database.
     |
     */
-    'role_user_table' => 'role_user',
+    'role_user_table' => 'role_usuario',
 
     /*
     |--------------------------------------------------------------------------
     | User Foreign key on Lumineer's role_user Table (Pivot)
     |--------------------------------------------------------------------------
     */
-    'user_foreign_key' => 'user_id',
+    'user_foreign_key' => 'usuario_id',
 
     /*
     |--------------------------------------------------------------------------
@@ -110,5 +110,5 @@ return [
     | Permission Foreign key on Lumineer's permission_role Table (Pivot)
     |--------------------------------------------------------------------------
     */
-    'permission_foreign_key' => 'permission_id',
+    'permission_foreign_key' => 'permiso_id',
 ];
