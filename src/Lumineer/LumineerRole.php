@@ -9,12 +9,12 @@
  * @copyright 19 Peaches, LLC. All Rights Reserved.
  */
 
-namespace Peaches\Lumineer;
+namespace Reinelt\Lumineer;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Database\Eloquent\Model;
-use Peaches\Lumineer\Traits\LumineerRoleTrait;
-use Peaches\Lumineer\Contracts\LumineerRoleInterface;
+use Reinelt\Lumineer\Traits\LumineerRoleTrait;
+use Reinelt\Lumineer\Contracts\LumineerRoleInterface;
 
 /**
  * Lumineer base model for roles.

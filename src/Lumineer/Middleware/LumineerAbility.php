@@ -9,7 +9,7 @@
  * @copyright 19 Peaches, LLC. All Rights Reserved.
  */
 
-namespace Peaches\Lumineer\Middleware;
+namespace Reinelt\Lumineer\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

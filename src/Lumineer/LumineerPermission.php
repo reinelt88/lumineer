@@ -9,12 +9,12 @@
  * @copyright 19 Peaches, LLC. All Rights Reserved.
  */
 
-namespace Peaches\Lumineer;
+namespace Reinelt\Lumineer;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Database\Eloquent\Model;
-use Peaches\Lumineer\Traits\LumineerPermissionTrait;
-use Peaches\Lumineer\Contracts\LumineerPermissionInterface;
+use Reinelt\Lumineer\Traits\LumineerPermissionTrait;
+use Reinelt\Lumineer\Contracts\LumineerPermissionInterface;
 
 /**
  * Lumineer base model for permissions.

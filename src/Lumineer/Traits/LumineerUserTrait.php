@@ -9,7 +9,7 @@
  * @copyright 19 Peaches, LLC. All Rights Reserved.
  */
 
-namespace Peaches\Lumineer\Traits;
+namespace Reinelt\Lumineer\Traits;
 
 use InvalidArgumentException;
 use Illuminate\Support\Facades\Cache;

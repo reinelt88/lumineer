@@ -9,7 +9,7 @@
  * @copyright 19 Peaches, LLC. All Rights Reserved.
  */
 
-namespace Peaches\Lumineer;
+namespace Reinelt\Lumineer;
 
 use Illuminate\Support\ServiceProvider;
 

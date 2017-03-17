@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Peaches\Lumineer\LumineerRole;
+use Reinelt\Lumineer\LumineerRole;
 
 class Role extends LumineerRole
 {

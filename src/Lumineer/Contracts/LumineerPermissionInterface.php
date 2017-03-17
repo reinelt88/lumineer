@@ -9,7 +9,7 @@
  * @copyright 19 Peaches, LLC. All Rights Reserved.
  */
 
-namespace Peaches\Lumineer\Contracts;
+namespace Reinelt\Lumineer\Contracts;
 
 /**
  * Lumineer permission contract.
