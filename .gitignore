@@ -1,0 +1,11 @@
+### API ###
+api/
+docgen/
+apigen.neon
+apigen
+
+### PHP ###
+/vendor
+composer.lock
+.DS_Store
+Thumbs.db

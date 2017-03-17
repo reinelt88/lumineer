@@ -1,0 +1,16 @@
+{
+  "root": "./docs",
+  "gitbook": ">=3.0.0-pre.0",
+  "plugins": ["github"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/19peaches/lumineer/"
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  }
+}
