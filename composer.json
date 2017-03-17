@@ -1,39 +1,9 @@
 {
-    "name": "19peaches/lumineer",
+    "name": "reinelt/lumineer",
     "description": "This package provides a flexible way to add Role-based Permissions to Lumen",
     "keywords": ["laravel","lumen","illuminate","auth","roles","acl", "rbac","permission"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Vince Kronlein",
-            "homepage": "http://19peaches.com"
-        },
-        {
-            "name": "Andrew Elkins",
-            "homepage": "http://andrewelkins.com"
-        },
-        {
-            "name": "Ben Batschelet",
-            "homepage": "http://github.com/bbatsche"
-        },
-        {
-            "name": "Mateo Calle",
-            "email": "matecalle@gmail.com"
-        },
-        {
-            "name": "Michele Angioni",
-            "email": "michele.angioni@gmail.com"
-        },
-        {
-            "name": "Santiago Garcia",
-            "email": "laratrust@gmail.com"
-        },
-        {
-            "name": "Zizaco Zizuini",
-            "email": "zizaco@gmail.com"
-        }
-    ],
-    "require": {
+     "require": {
         "php": ">=5.5.0",
         "illuminate/console": "~5.0",
         "illuminate/support": "~5.0",
@@ -55,7 +25,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Peaches\\Lumineer\\": "src/Lumineer/"
+            "Reinelt\\Lumineer\\": "src/Lumineer/"
         }
     },
     "autoload-dev": {
