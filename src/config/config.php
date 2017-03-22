@@ -45,7 +45,7 @@ return [
     | This is the roles table used by Lumineer to save roles to the database.
     |
     */
-    'roles_table' => 'lumineer_roles',
+    'roles_table' => 'roles',
 
     /*
     |--------------------------------------------------------------------------
